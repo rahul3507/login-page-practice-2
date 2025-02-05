@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(192, 192, 238);
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'SUSE';
+}
+.container{
+    height:500px ;
+    width: 800px;
+    background-color: white;
+    margin: 8% 21%;
+    border-radius: 30px;
+    box-shadow: 5px 8px 8px 8px rgb(163, 162, 162);
+    display: flex;
+    
+}
+.login{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+input{
+    background-color: rgb(235, 231, 245);
+    font-size: 1.3rem;
+    width: 230px;
+    border-radius: 10px;
+    padding: 6px;
+    padding-left:40px;
+    margin: 10px;
+    border: none;
+}
+#username{
+    background-image: url('user.png');
+    background-position: 12px 7px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+#password{
+    background-image: url('padlock.png');
+    background-position: 12px 7px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.login-button{
+    background-color: #6a5df4;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+a{
+    background-color: rgb(235, 231, 245);
+    font-size: 1.3rem;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+.ggl{
+    padding: 8px 44px;
+    background-image: url('google.png');
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+}
+.fb{
+    padding: 8px 26px;
+    padding-left: 38px;
+    background-image: url('facebook.png');
+    background-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+}
+
+
+.signup{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url('signup.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+.signup-button{
+    background-color: #fcfcfe;
+    color: black;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
